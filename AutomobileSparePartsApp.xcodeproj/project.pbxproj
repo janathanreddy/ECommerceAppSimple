@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214BCCD725B5AE9900870002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BCCD625B5AE9900870002 /* AppDelegate.swift */; };
+		214BCCD925B5AE9900870002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BCCD825B5AE9900870002 /* SceneDelegate.swift */; };
+		214BCCDB25B5AE9900870002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BCCDA25B5AE9900870002 /* ViewController.swift */; };
+		214BCCDE25B5AE9900870002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214BCCDC25B5AE9900870002 /* Main.storyboard */; };
+		214BCCE025B5AE9C00870002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214BCCDF25B5AE9C00870002 /* Assets.xcassets */; };
+		214BCCE325B5AE9C00870002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214BCCE125B5AE9C00870002 /* LaunchScreen.storyboard */; };
+		214BCCEE25B5AE9C00870002 /* AutomobileSparePartsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BCCED25B5AE9C00870002 /* AutomobileSparePartsAppTests.swift */; };
+		214BCCF925B5AE9C00870002 /* AutomobileSparePartsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BCCF825B5AE9C00870002 /* AutomobileSparePartsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		214BCCEA25B5AE9C00870002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214BCCCB25B5AE9900870002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214BCCD225B5AE9900870002;
+			remoteInfo = AutomobileSparePartsApp;
+		};
+		214BCCF525B5AE9C00870002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214BCCCB25B5AE9900870002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214BCCD225B5AE9900870002;
+			remoteInfo = AutomobileSparePartsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		214BCCD325B5AE9900870002 /* AutomobileSparePartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomobileSparePartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214BCCD625B5AE9900870002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		214BCCD825B5AE9900870002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		214BCCDA25B5AE9900870002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		214BCCDD25B5AE9900870002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214BCCDF25B5AE9C00870002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214BCCE225B5AE9C00870002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		214BCCE425B5AE9C00870002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214BCCE925B5AE9C00870002 /* AutomobileSparePartsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomobileSparePartsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214BCCED25B5AE9C00870002 /* AutomobileSparePartsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomobileSparePartsAppTests.swift; sourceTree = "<group>"; };
+		214BCCEF25B5AE9C00870002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214BCCF425B5AE9C00870002 /* AutomobileSparePartsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomobileSparePartsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214BCCF825B5AE9C00870002 /* AutomobileSparePartsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomobileSparePartsAppUITests.swift; sourceTree = "<group>"; };
+		214BCCFA25B5AE9C00870002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214BCCD025B5AE9900870002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214BCCE625B5AE9C00870002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214BCCF125B5AE9C00870002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214BCCCA25B5AE9900870002 = {
+			isa = PBXGroup;
+			children = (
+				214BCCD525B5AE9900870002 /* AutomobileSparePartsApp */,
+				214BCCEC25B5AE9C00870002 /* AutomobileSparePartsAppTests */,
+				214BCCF725B5AE9C00870002 /* AutomobileSparePartsAppUITests */,
+				214BCCD425B5AE9900870002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		214BCCD425B5AE9900870002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214BCCD325B5AE9900870002 /* AutomobileSparePartsApp.app */,
+				214BCCE925B5AE9C00870002 /* AutomobileSparePartsAppTests.xctest */,
+				214BCCF425B5AE9C00870002 /* AutomobileSparePartsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		214BCCD525B5AE9900870002 /* AutomobileSparePartsApp */ = {
+			isa = PBXGroup;
+			children = (
+				214BCCD625B5AE9900870002 /* AppDelegate.swift */,
+				214BCCD825B5AE9900870002 /* SceneDelegate.swift */,
+				214BCCDA25B5AE9900870002 /* ViewController.swift */,
+				214BCCDC25B5AE9900870002 /* Main.storyboard */,
+				214BCCDF25B5AE9C00870002 /* Assets.xcassets */,
+				214BCCE125B5AE9C00870002 /* LaunchScreen.storyboard */,
+				214BCCE425B5AE9C00870002 /* Info.plist */,
+			);
+			path = AutomobileSparePartsApp;
+			sourceTree = "<group>";
+		};
+		214BCCEC25B5AE9C00870002 /* AutomobileSparePartsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				214BCCED25B5AE9C00870002 /* AutomobileSparePartsAppTests.swift */,
+				214BCCEF25B5AE9C00870002 /* Info.plist */,
+			);
+			path = AutomobileSparePartsAppTests;
+			sourceTree = "<group>";
+		};
+		214BCCF725B5AE9C00870002 /* AutomobileSparePartsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				214BCCF825B5AE9C00870002 /* AutomobileSparePartsAppUITests.swift */,
+				214BCCFA25B5AE9C00870002 /* Info.plist */,
+			);
+			path = AutomobileSparePartsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		214BCCD225B5AE9900870002 /* AutomobileSparePartsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214BCCFD25B5AE9C00870002 /* Build configuration list for PBXNativeTarget "AutomobileSparePartsApp" */;
+			buildPhases = (
+				214BCCCF25B5AE9900870002 /* Sources */,
+				214BCCD025B5AE9900870002 /* Frameworks */,
+				214BCCD125B5AE9900870002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomobileSparePartsApp;
+			productName = AutomobileSparePartsApp;
+			productReference = 214BCCD325B5AE9900870002 /* AutomobileSparePartsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		214BCCE825B5AE9C00870002 /* AutomobileSparePartsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214BCD0025B5AE9C00870002 /* Build configuration list for PBXNativeTarget "AutomobileSparePartsAppTests" */;
+			buildPhases = (
+				214BCCE525B5AE9C00870002 /* Sources */,
+				214BCCE625B5AE9C00870002 /* Frameworks */,
+				214BCCE725B5AE9C00870002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214BCCEB25B5AE9C00870002 /* PBXTargetDependency */,
+			);
+			name = AutomobileSparePartsAppTests;
+			productName = AutomobileSparePartsAppTests;
+			productReference = 214BCCE925B5AE9C00870002 /* AutomobileSparePartsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		214BCCF325B5AE9C00870002 /* AutomobileSparePartsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214BCD0325B5AE9C00870002 /* Build configuration list for PBXNativeTarget "AutomobileSparePartsAppUITests" */;
+			buildPhases = (
+				214BCCF025B5AE9C00870002 /* Sources */,
+				214BCCF125B5AE9C00870002 /* Frameworks */,
+				214BCCF225B5AE9C00870002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214BCCF625B5AE9C00870002 /* PBXTargetDependency */,
+			);
+			name = AutomobileSparePartsAppUITests;
+			productName = AutomobileSparePartsAppUITests;
+			productReference = 214BCCF425B5AE9C00870002 /* AutomobileSparePartsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214BCCCB25B5AE9900870002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					214BCCD225B5AE9900870002 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					214BCCE825B5AE9C00870002 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 214BCCD225B5AE9900870002;
+					};
+					214BCCF325B5AE9C00870002 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 214BCCD225B5AE9900870002;
+					};
+				};
+			};
+			buildConfigurationList = 214BCCCE25B5AE9900870002 /* Build configuration list for PBXProject "AutomobileSparePartsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 214BCCCA25B5AE9900870002;
+			productRefGroup = 214BCCD425B5AE9900870002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214BCCD225B5AE9900870002 /* AutomobileSparePartsApp */,
+				214BCCE825B5AE9C00870002 /* AutomobileSparePartsAppTests */,
+				214BCCF325B5AE9C00870002 /* AutomobileSparePartsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214BCCD125B5AE9900870002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214BCCE325B5AE9C00870002 /* LaunchScreen.storyboard in Resources */,
+				214BCCE025B5AE9C00870002 /* Assets.xcassets in Resources */,
+				214BCCDE25B5AE9900870002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214BCCE725B5AE9C00870002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214BCCF225B5AE9C00870002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214BCCCF25B5AE9900870002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214BCCDB25B5AE9900870002 /* ViewController.swift in Sources */,
+				214BCCD725B5AE9900870002 /* AppDelegate.swift in Sources */,
+				214BCCD925B5AE9900870002 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214BCCE525B5AE9C00870002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214BCCEE25B5AE9C00870002 /* AutomobileSparePartsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214BCCF025B5AE9C00870002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214BCCF925B5AE9C00870002 /* AutomobileSparePartsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		214BCCEB25B5AE9C00870002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214BCCD225B5AE9900870002 /* AutomobileSparePartsApp */;
+			targetProxy = 214BCCEA25B5AE9C00870002 /* PBXContainerItemProxy */;
+		};
+		214BCCF625B5AE9C00870002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214BCCD225B5AE9900870002 /* AutomobileSparePartsApp */;
+			targetProxy = 214BCCF525B5AE9C00870002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214BCCDC25B5AE9900870002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214BCCDD25B5AE9900870002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		214BCCE125B5AE9C00870002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214BCCE225B5AE9C00870002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		214BCCFB25B5AE9C00870002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		214BCCFC25B5AE9C00870002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		214BCCFE25B5AE9C00870002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL92UNQ3FG;
+				INFOPLIST_FILE = AutomobileSparePartsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JANTEL-CORP.AutomobileSparePartsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214BCCFF25B5AE9C00870002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL92UNQ3FG;
+				INFOPLIST_FILE = AutomobileSparePartsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JANTEL-CORP.AutomobileSparePartsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		214BCD0125B5AE9C00870002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL92UNQ3FG;
+				INFOPLIST_FILE = AutomobileSparePartsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JANTEL-CORP.AutomobileSparePartsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutomobileSparePartsApp.app/AutomobileSparePartsApp";
+			};
+			name = Debug;
+		};
+		214BCD0225B5AE9C00870002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL92UNQ3FG;
+				INFOPLIST_FILE = AutomobileSparePartsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JANTEL-CORP.AutomobileSparePartsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutomobileSparePartsApp.app/AutomobileSparePartsApp";
+			};
+			name = Release;
+		};
+		214BCD0425B5AE9C00870002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL92UNQ3FG;
+				INFOPLIST_FILE = AutomobileSparePartsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JANTEL-CORP.AutomobileSparePartsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutomobileSparePartsApp;
+			};
+			name = Debug;
+		};
+		214BCD0525B5AE9C00870002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL92UNQ3FG;
+				INFOPLIST_FILE = AutomobileSparePartsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JANTEL-CORP.AutomobileSparePartsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutomobileSparePartsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214BCCCE25B5AE9900870002 /* Build configuration list for PBXProject "AutomobileSparePartsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214BCCFB25B5AE9C00870002 /* Debug */,
+				214BCCFC25B5AE9C00870002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214BCCFD25B5AE9C00870002 /* Build configuration list for PBXNativeTarget "AutomobileSparePartsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214BCCFE25B5AE9C00870002 /* Debug */,
+				214BCCFF25B5AE9C00870002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214BCD0025B5AE9C00870002 /* Build configuration list for PBXNativeTarget "AutomobileSparePartsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214BCD0125B5AE9C00870002 /* Debug */,
+				214BCD0225B5AE9C00870002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214BCD0325B5AE9C00870002 /* Build configuration list for PBXNativeTarget "AutomobileSparePartsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214BCD0425B5AE9C00870002 /* Debug */,
+				214BCD0525B5AE9C00870002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 214BCCCB25B5AE9900870002 /* Project object */;
+}
