@@ -15,6 +15,10 @@
 		214BCCE325B5AE9C00870002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214BCCE125B5AE9C00870002 /* LaunchScreen.storyboard */; };
 		214BCCEE25B5AE9C00870002 /* AutomobileSparePartsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BCCED25B5AE9C00870002 /* AutomobileSparePartsAppTests.swift */; };
 		214BCCF925B5AE9C00870002 /* AutomobileSparePartsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BCCF825B5AE9C00870002 /* AutomobileSparePartsAppUITests.swift */; };
+		21D2A1DD25B6B24200BB3BFE /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2A1DB25B6B24200BB3BFE /* CollectionViewCell1.swift */; };
+		21D2A1DE25B6B24200BB3BFE /* CollectionViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D2A1DC25B6B24200BB3BFE /* CollectionViewCell1.xib */; };
+		21D2A1E725B6CFD400BB3BFE /* BrandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2A1E525B6CFD400BB3BFE /* BrandCollectionViewCell.swift */; };
+		21D2A1E825B6CFD400BB3BFE /* BrandCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D2A1E625B6CFD400BB3BFE /* BrandCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		214BCCF425B5AE9C00870002 /* AutomobileSparePartsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomobileSparePartsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		214BCCF825B5AE9C00870002 /* AutomobileSparePartsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomobileSparePartsAppUITests.swift; sourceTree = "<group>"; };
 		214BCCFA25B5AE9C00870002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D2A1DB25B6B24200BB3BFE /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		21D2A1DC25B6B24200BB3BFE /* CollectionViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell1.xib; sourceTree = "<group>"; };
+		21D2A1E525B6CFD400BB3BFE /* BrandCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewCell.swift; sourceTree = "<group>"; };
+		21D2A1E625B6CFD400BB3BFE /* BrandCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				214BCCDF25B5AE9C00870002 /* Assets.xcassets */,
 				214BCCE125B5AE9C00870002 /* LaunchScreen.storyboard */,
 				214BCCE425B5AE9C00870002 /* Info.plist */,
+				21D2A1DB25B6B24200BB3BFE /* CollectionViewCell1.swift */,
+				21D2A1DC25B6B24200BB3BFE /* CollectionViewCell1.xib */,
+				21D2A1E525B6CFD400BB3BFE /* BrandCollectionViewCell.swift */,
+				21D2A1E625B6CFD400BB3BFE /* BrandCollectionViewCell.xib */,
 			);
 			path = AutomobileSparePartsApp;
 			sourceTree = "<group>";
@@ -231,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D2A1DE25B6B24200BB3BFE /* CollectionViewCell1.xib in Resources */,
 				214BCCE325B5AE9C00870002 /* LaunchScreen.storyboard in Resources */,
+				21D2A1E825B6CFD400BB3BFE /* BrandCollectionViewCell.xib in Resources */,
 				214BCCE025B5AE9C00870002 /* Assets.xcassets in Resources */,
 				214BCCDE25B5AE9900870002 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D2A1DD25B6B24200BB3BFE /* CollectionViewCell1.swift in Sources */,
+				21D2A1E725B6CFD400BB3BFE /* BrandCollectionViewCell.swift in Sources */,
 				214BCCDB25B5AE9900870002 /* ViewController.swift in Sources */,
 				214BCCD725B5AE9900870002 /* AppDelegate.swift in Sources */,
 				214BCCD925B5AE9900870002 /* SceneDelegate.swift in Sources */,
